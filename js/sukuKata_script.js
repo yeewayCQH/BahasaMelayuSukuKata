@@ -175,7 +175,23 @@ quit_quiz.onclick = ()=>{
 }
 
 // initial START
+let questions = [];
 window.addEventListener('load',() => {
+
+    let htmlPageName = window.location.pathname;
+	let index = htmlPageName.lastIndexOf("/");
+	let pageName = htmlPageName.substring(index+1);
+
+    if(pageName == "hurufVokal_1.html" || pageName == "hurufVokal_1_ipad.html"){
+
+		questions = questions_1;
+        document.title = "Huruf Vokal Latihan 1";
+
+	} else if(pageName == "hurufVokal_2.html" || pageName == "hurufVokal_2_ipad.html"){
+
+		questions = questions_2;
+		document.title = "Huruf Vokal Latihan 2";
+	}
 
 	showQuetions(0);     //calling showQestions function
 	queCounter(1);       //passing 1 parameter to queCounter
@@ -183,10 +199,5 @@ window.addEventListener('load',() => {
 	page_title.textContent = userTitle;
     if(userTitle.trim().length == 0) {
 	    page_title_panel.classList.add("hiddenBorder");
-	}
-
-	document.title = tabTitle;
-	if(tabTitle.trim().length == 0) {
-		document.title = "My Exercise";
 	}
 })
