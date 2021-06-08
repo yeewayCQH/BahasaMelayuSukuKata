@@ -17,32 +17,11 @@ body{
 
 .content .contentWrapper{
   display: grid;
-  grid-template-rows: 12% 80% 15%;
-}
-
-.headerPanel{
-  width: 100%;
-}
-
-.headerPanel .headerWrapper{	
-  height: 98%;
-  display: grid;
-  grid-template-columns: 70% 30%;
-  align-items: center;
-  justify-content: center;
-}
-
-.headerPanel .headerWrapper .title{
-  font-size: 4vw;
-  font-weight: 600;
-  float: left;
-  margin: 5px;
-  color:#004085;
-  text-align: left;
-  margin-left: 20px;
+  grid-template-rows: 80% 15%;
 }
 
 .questionOptionPanel{  
+  width: 100%;
 }
 
 .wrapper{

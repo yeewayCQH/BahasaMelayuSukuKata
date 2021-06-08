@@ -1,7 +1,5 @@
 const wrong_audio         = document.getElementById("wrongAudio");
 const correct_audio       = document.getElementById("correctAudio");
-const page_title          = document.getElementById("pageTitle");
-const page_title_panel    = document.getElementById("pageTitlePanel");
 
 const bottom_ques_counter = document.querySelector(".info");
 const option_list         = document.querySelector(".option_list");
@@ -195,9 +193,4 @@ window.addEventListener('load',() => {
 
 	showQuetions(0);     //calling showQestions function
 	queCounter(1);       //passing 1 parameter to queCounter
-
-	page_title.textContent = userTitle;
-    if(userTitle.trim().length == 0) {
-	    page_title_panel.classList.add("hiddenBorder");
-	}
 })
