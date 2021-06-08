@@ -17,7 +17,7 @@ body{
 
 .content .contentWrapper{
   display: grid;
-  grid-template-rows: 20% 80% 15%;
+  grid-template-rows: 12% 80% 15%;
 }
 
 .headerPanel{
@@ -40,52 +40,6 @@ body{
   color:#004085;
   text-align: left;
   margin-left: 20px;
-}
-
-.headerPanel .headerWrapper .time_panel{
-   height: 75%;
-   background: #007bff;
-   border-radius: 5px;
-   margin-right:20px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-               0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.headerPanel .headerWrapper .time_panel .timer{
-    float: center;
-    height:98%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.headerPanel .headerWrapper .time_panel .timer .time_left_txt{
-    font-size: 3.5vw;
-    user-select: none;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin-left: 15px;
-}
-
-.headerPanel .headerWrapper .time_panel .timer .timer_sec{
-    font-size: 3.6vw;
-    font-weight: 600;
-    user-select: none;
-    width: 25%;
-    border-radius: 5px;
-    text-align: center;
-    color: red;
-    background: white;
-    border: 1px solid white;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 3px;
-    margin: 5px;
-    margin-right:15px;
 }
 
 .questionOptionPanel{  
@@ -111,11 +65,13 @@ body{
   margin: 8px 10px 10px 8px;
   //background-color: #FDE9CE;
   background-color:white;
+  border: 3px solid red;
 }
 
 .equation img{
-  width: 98%;
-  height: 98%; 
+  //width: 98%;
+  //height: 98%; 
+  border: 3px solid green;
 }
 
 .option_list{
@@ -258,7 +214,7 @@ body{
 }
 
 .next_btn{
-    height:100px;
+    height:110px;
     font-size: 3.8vw;
     cursor: pointer;
     border: 3px solid #007bff;
