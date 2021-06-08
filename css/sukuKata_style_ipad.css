@@ -22,6 +22,7 @@ body{
 
 .questionOptionPanel{  
   width: 100%;
+  margin-top: 15px;
 }
 
 .wrapper{
@@ -44,13 +45,13 @@ body{
   margin: 8px 10px 10px 8px;
   //background-color: #FDE9CE;
   background-color:white;
-  border: 3px solid red;
+  //border: 3px solid red;
 }
 
 .equation img{
   width: 98%;
   //height: 98%; 
-  border: 3px solid green;
+  //border: 3px solid green;
 }
 
 .option_list{
@@ -172,6 +173,7 @@ body{
   display: grid;
   grid-template-columns: 5% 57% 31% 5%;
   margin:auto;
+  height: 98%;
 }
 
 .infoPanel .infoPanelWrapper .info{
