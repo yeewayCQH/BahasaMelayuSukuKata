@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Exercise</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <script src="../js/icon.js"></script>
+</head>
+<body>
+
+    <audio id="wrongAudio">
+      <source src="../audio/wrong.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="correctAudio">
+      <source src="../audio/correct.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="pageTitle" id="pageTitlePanel">
+    	<span id="pageTitle" />
+    </div>
+
+	<div class="container">
+ 		<div class="leftContainer">
+ 			<img src="../image/role.png" ></img>
+ 		</div>
+ 		<div class="middleContainer">
+ 			<div class="info">
+	  			<h1>Question <span class="numberQuestionIndex">1</span> of <span class="totalQuestion"></span></h1>
+	  		</div>
+ 			<div class="questionPanel">
+				<div class="equation">
+                    <!-- write from script -->
+			  		<img id="question_img"></img>
+				</div>
+ 			</div>
+ 		</div>
+ 		<div class="rightContainer">
+ 		    <div class="emptyPanel">&nbsp;</div>
+ 			<div class="option_list">
+			 	<!-- write from script -->
+		    </div>
+ 		<div>
+	</div>
+
+	<!-- Result Box -->
+    <div class="result_box">
+      <div class="icon"><i class="fas fa-crown"></i></div>
+      <div class="complete_text">You've completed the Quiz!</div>
+      <div class="score_text">Total Question : <div class="totalQuestion"></div></div>
+      <div class="score_text">
+          <div class="icon tick"> <i class="fas fa-check"></i></div>
+          Correct : <div class="numberCorrect"></div> &
+          <div class="icon cross"> <i class="fas fa-times"></i></div>
+          Wrong : <div class="numberWrong"></div>
+      </div>
+      <div class="buttons"><button class="ok">ok</button></div>
+    </div>
+
+	<script src="../js/hurufVokal1_questions.js"></script>
+    <script src="../js/hurufVokal1_script.js"></script>
+</body>
+</html>
