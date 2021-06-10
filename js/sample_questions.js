@@ -2,7 +2,7 @@
 let questions_1 = [
 
 {
-    pics: "../image/unit01_soalan01.jpg",
+    pics: "../image/sample/unit01_soalan01.jpg",
     answer: "sayang",
     options: [
       "sayang",
@@ -14,7 +14,7 @@ let questions_1 = [
   },
 
   {
-      pics: "../image/unit01_soalan02.jpg",
+      pics: "../image/sample/unit01_soalan02.jpg",
       answer: "keluarga",
       options: [
         "sayang",
