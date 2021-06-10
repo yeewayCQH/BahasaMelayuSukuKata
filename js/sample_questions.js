@@ -2,7 +2,7 @@
 let questions_1 = [
 
 {
-    pics: "../image/sample/unit01_soalan01.jpg",
+    pics: "../image/sample/unit01_soalan01.JPG",
     answer: "sayang",
     options: [
       "sayang",
@@ -14,7 +14,7 @@ let questions_1 = [
   },
 
   {
-      pics: "../image/sample/unit01_soalan02.jpg",
+      pics: "../image/sample/unit01_soalan02.JPG",
       answer: "keluarga",
       options: [
         "sayang",
@@ -26,7 +26,7 @@ let questions_1 = [
   },
 
   {
-    pics: "../image/sample/huruf_vokal_api.jpg",
+    pics: "../image/sample/huruf_vokal_api.JPG",
     answer: "a",
     options: [
       "a",
@@ -37,7 +37,7 @@ let questions_1 = [
     ]
   },
     {
-    pics: "../image/sample/huruf_vokal_ayam.jpg",
+    pics: "../image/sample/huruf_vokal_ayam.JPG",
     answer: "a",
     options: [
       "a",
@@ -49,7 +49,7 @@ let questions_1 = [
   },
 
   {
-      pics: "../image/sample/huruf_vokal_itik2.jpg",
+      pics: "../image/sample/huruf_vokal_itik2.JPG",
       answer: "itik",
       options: [
         "itik",
@@ -60,7 +60,7 @@ let questions_1 = [
       ]
     },
       {
-      pics: "../image/sample/huruf_vokal_ikan2.jpg",
+      pics: "../image/sample/huruf_vokal_ikan2.JPG",
       answer: "ikan",
       options: [
         "ikan",
@@ -72,7 +72,7 @@ let questions_1 = [
   },
 
   {
-      pics: "../image/sample/count_01.jpg",
+      pics: "../image/sample/count_01.JPG",
       answer: "4",
       options: [
         "3",
@@ -83,7 +83,7 @@ let questions_1 = [
       ]
     },
       {
-      pics: "../image/sample/add_01.jpg",
+      pics: "../image/sample/add_01.JPG",
       answer: "5",
       options: [
         "5",
