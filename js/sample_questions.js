@@ -25,7 +25,7 @@ let questions_1 = [
       ]
   },
   {
-      pics: "../image/sample/unit01_soalan04.jpg",
+      pics: "../image/sample/unit01_soalan04.JPG",
       answer: "sebut",
       options: [
         "sayang",
