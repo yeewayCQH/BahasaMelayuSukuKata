@@ -71,6 +71,13 @@ body{
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+@media(max-width:480px){
+  .middleContainer .questionPanel .equation img{
+      width: 100%;
+      height: 99%; 
+  }
+}
+
 .middleContainer .questionPanel .equation img{
     //width: 99%;
     height: 99%; 
