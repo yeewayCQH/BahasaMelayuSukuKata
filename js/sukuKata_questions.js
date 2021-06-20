@@ -264,12 +264,32 @@ let questions_1 = [
     ]
   },
 
+  {
+    pics: "../image/question/huruf_vokal_awan.png",
+    answer: "a",
+    options: [
+      "a",
+      "u",
+      "e",
+      "i"
+    ]
+  },
   // TODO
 ];
 
 
 let questions_2 = [
-    {
+  {
+    pics: "../image/question/huruf_vokal_awan2.png",
+    answer: "awan",
+    options: [
+      "asap",
+      "itik",
+      "emas",
+      "awan"
+    ]
+  },
+  {
     pics: "../image/question/huruf_vokal_asap2.png",
     answer: "asap",
     options: [
