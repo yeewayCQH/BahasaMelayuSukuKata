@@ -3,44 +3,6 @@
  *                           Mathematics                        *
  ****************************************************************/
 
-/*
-const menu_addition    = document.getElementById("menu_addition");
-const menu_subtract    = document.getElementById("menu_subtract");
-const menu_multiply    = document.getElementById("menu_multiply");
-const menu_divide      = document.getElementById("menu_divide");
-
-menu_addition.addEventListener("click", function(){
-	var x = document.documentURI;
-	x = x.replace("menu.html","page/basicMath_add.html");
-	x = x.replace("#basicMath","");
-	window.open(x);
-	//window.location.href = x;
-});
-
-menu_subtract.addEventListener("click", function(){
-	var x = document.documentURI;
-	x = x.replace("menu.html","page/basicMath_subtract.html");
-	x = x.replace("#basicMath","");
-	window.open(x);
-	//window.location.href = x;
-});
-
-menu_multiply.addEventListener("click", function(){
-	var x = document.documentURI;
-	x = x.replace("menu.html","page/basicMath_multiply.html");
-	x = x.replace("#basicMath","");
-	window.open(x);
-	//window.location.href = x;
-});
-
-menu_divide.addEventListener("click", function(){
-	var x = document.documentURI;
-	x = x.replace("menu.html","page/basicMath_divide.html");
-	x = x.replace("#basicMath","");
-	window.open(x);
-	//window.location.href = x;
-});
-*/
 
 
 
@@ -49,8 +11,15 @@ menu_divide.addEventListener("click", function(){
  *                  Bahasa Melayu                               *
  ****************************************************************/
 
-const menu_hurufVokal_1   = document.getElementById("menu_hurufVokal_1");
-const menu_hurufVokal_2   = document.getElementById("menu_hurufVokal_2");
+const menu_hurufVokal_1    = document.getElementById("menu_hurufVokal_1");
+const menu_hurufVokal_2    = document.getElementById("menu_hurufVokal_2");
+const menu_hurufVokal_read = document.getElementById("menu_hurufVokal_read");
+
+menu_hurufVokal_read.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/pwtji/vxgd/#p=1");
+
+});
 
 menu_hurufVokal_1.addEventListener("click", function(){
 
