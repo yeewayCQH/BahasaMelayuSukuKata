@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Luckiest Guy', cursive;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:5px;
+  //background-color: #E6E6EA;
+  background-image: url("../image/background.jpg");
+  background-repeat: no-repeat;
+}
+
+.wrapperTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapperPanel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper{
+  width: 80%; 
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  margin-top: 5px;
+}
+
+#accordion{
+  background:#b8daff;
+  margin: 8px;
+  border-radius: 10px;
+  box-shadow: 0 4px  8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#accordion .subjectTitle{
+  font-size: 2.3vw;
+  margin: 5px;
+  color:#004085;
+  background:#b8daff;
+  padding: 10px;
+  border-bottom: 5px solid #004085; 
+}
+
+#accordion section .menuTitle{
+  font-size: 1.2vw; 
+  margin-left: 25px;
+  letter-spacing:1px;
+}
+
+#accordion section a{
+  text-decoration: none;
+  color:#007bff;
+}
+
+#accordion section a:hover{
+  text-decoration: underline white;
+} 
+
+#accordion section .menu{
+  display: none;
+}
+
+#accordion section:target .menu{
+  display: block;
+}
+
+.menu{
+    font-size: 1.3vw;
+    border-radius: 10px; 
+    color:white;
+    padding: 10px;
+    margin-left:35px;
+    letter-spacing:1px;
+}
+
+.menu:hover{
+  color: #b8daff ;
+  border-color: #b8daff;
+  background-color: white;
+  cursor: pointer; 
+}
