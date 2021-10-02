@@ -82,13 +82,13 @@ menu_disneyL2_book4.addEventListener("click", function(){
 
 menu_disneyL2_book5.addEventListener("click", function(){
 
-	window.open("");
+	window.open("https://online.fliphtml5.com/pwtji/jnbr/");
 
 });
 
 menu_disneyL2_book6.addEventListener("click", function(){
 
-	window.open("");
+	window.open("https://online.fliphtml5.com/pwtji/wztx/");
 
 });
 
@@ -103,40 +103,41 @@ const menu_disneyL3_book6   = document.getElementById("menu_disneyL3_book6");
 
 menu_disneyL3_book1.addEventListener("click", function(){
 
-	window.open("");
+	window.open("https://online.fliphtml5.com/pwtji/ynid/");
 
 });
 
 menu_disneyL3_book2.addEventListener("click", function(){
 
-	window.open("");
+	window.open("https://online.fliphtml5.com/pwtji/ltru/");
 
 });
 
 menu_disneyL3_book3.addEventListener("click", function(){
 
-	window.open("");
+	window.open("https://online.fliphtml5.com/pwtji/velz/");
 
 });
 
 menu_disneyL3_book4.addEventListener("click", function(){
 
-	window.open("");
+	window.open("https://online.fliphtml5.com/pwtji/wond/");
 
 });
 
 menu_disneyL3_book5.addEventListener("click", function(){
 
-	window.open("");
+	window.open("https://online.fliphtml5.com/pwtji/psou/");
 
 });
 
 menu_disneyL3_book6.addEventListener("click", function(){
 
-	window.open("");
+	window.open("https://online.fliphtml5.com/pwtji/edmm/");
 
 });
 
+/*
 // ============================= Level 4
 
 const menu_disneyL4_book1   = document.getElementById("menu_disneyL4_book1");
@@ -271,6 +272,98 @@ menu_disneyL6_book6.addEventListener("click", function(){
 	window.open("");
 
 });
+*/
+
+
+/****************************************************************
+ *                        History                               *
+ ****************************************************************/
+
+
+const menu_chineseBook_HLM = document.getElementById("menu_chineseBook_HLM");
+
+menu_chineseBook_HLM.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/uyswk/iewu/");
+
+});
+
+
+/****************************************************************
+ *                        Doraemon                              *
+ ****************************************************************/
+
+const menu_doraemon_book1  = document.getElementById("menu_doraemon_book1");
+const menu_doraemon_book2  = document.getElementById("menu_doraemon_book2");
+const menu_doraemon_book3  = document.getElementById("menu_doraemon_book3");
+const menu_doraemon_book4  = document.getElementById("menu_doraemon_book4");
+const menu_doraemon_book5  = document.getElementById("menu_doraemon_book5");
+const menu_doraemon_book6  = document.getElementById("menu_doraemon_book6");
+const menu_doraemon_book7  = document.getElementById("menu_doraemon_book7");
+const menu_doraemon_book8  = document.getElementById("menu_doraemon_book8");
+const menu_doraemon_book9  = document.getElementById("menu_doraemon_book9");
+const menu_doraemon_book10 = document.getElementById("menu_doraemon_book10");
+
+menu_doraemon_book1.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/jrsf/");
+
+});
+
+menu_doraemon_book2.addEventListener("click", function(){
+
+ 	window.open("");
+
+});
+
+menu_doraemon_book3.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/tmss/");
+
+});
+
+menu_doraemon_book4.addEventListener("click", function(){
+
+ 	window.open("");
+
+});
+
+menu_doraemon_book5.addEventListener("click", function(){
+
+ 	window.open("");
+
+});
+
+menu_doraemon_book6.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/xqbe/");
+
+});
+
+menu_doraemon_book7.addEventListener("click", function(){
+
+ 	window.open("");
+
+});
+
+menu_doraemon_book8.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/vpwr/");
+
+});
+
+menu_doraemon_book9.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/lkqo/");
+
+});
+
+menu_doraemon_book10.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/xlrv/");
+
+});
+
 
 
 /****************************************************************
