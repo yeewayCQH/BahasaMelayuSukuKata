@@ -1,7 +1,64 @@
 
 /****************************************************************
+ *                        Finance Book                          *
+ ****************************************************************/
+
+
+const menu_financeBook_book1   = document.getElementById("menu_financeBook_book1");
+const menu_financeBook_book2   = document.getElementById("menu_financeBook_book2");
+const menu_financeBook_book3   = document.getElementById("menu_financeBook_book3");
+const menu_financeBook_book4   = document.getElementById("menu_financeBook_book4");
+const menu_financeBook_book5   = document.getElementById("menu_financeBook_book5");
+
+menu_financeBook_book1.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/uyswk/zbkn/");
+
+});
+
+menu_financeBook_book2.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/pwtji/jwar/");
+
+});
+
+menu_financeBook_book3.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/pwtji/giym/");
+
+});
+
+menu_financeBook_book4.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/pwtji/dhxa/");
+
+});
+
+menu_financeBook_book5.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/pwtji/szab/");
+
+});
+
+
+
+/****************************************************************
+ *                        Chinese Book (Yi Tong)                *
+ ****************************************************************/
+
+const menu_yiTong_book1   = document.getElementById("menu_yiTong_book1");
+
+menu_yiTong_book1.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/pwtji/naos/");
+
+});
+
+
+/****************************************************************
  *                        Chinese Disney Story                  *
  ****************************************************************/
+
 
 // ============================= Level 1
 const menu_disneyL1_book1   = document.getElementById("menu_disneyL1_book1");
@@ -311,6 +368,33 @@ const menu_doraemon_book15 = document.getElementById("menu_doraemon_book15");
 const menu_doraemon_book16 = document.getElementById("menu_doraemon_book16");
 const menu_doraemon_book17 = document.getElementById("menu_doraemon_book17");
 const menu_doraemon_book18 = document.getElementById("menu_doraemon_book18");
+const menu_doraemon_book19 = document.getElementById("menu_doraemon_book19");
+const menu_doraemon_book20 = document.getElementById("menu_doraemon_book20");
+const menu_doraemon_book21 = document.getElementById("menu_doraemon_book21");
+const menu_doraemon_book22 = document.getElementById("menu_doraemon_book22");
+const menu_doraemon_book23 = document.getElementById("menu_doraemon_book23");
+const menu_doraemon_book24 = document.getElementById("menu_doraemon_book24");
+const menu_doraemon_book25 = document.getElementById("menu_doraemon_book25");
+const menu_doraemon_book26 = document.getElementById("menu_doraemon_book26");
+const menu_doraemon_book27 = document.getElementById("menu_doraemon_book27");
+const menu_doraemon_book28 = document.getElementById("menu_doraemon_book28");
+const menu_doraemon_book29 = document.getElementById("menu_doraemon_book29");
+const menu_doraemon_book30 = document.getElementById("menu_doraemon_book30");
+const menu_doraemon_book31 = document.getElementById("menu_doraemon_book31");
+const menu_doraemon_book32 = document.getElementById("menu_doraemon_book32");
+const menu_doraemon_book33 = document.getElementById("menu_doraemon_book33");
+const menu_doraemon_book34 = document.getElementById("menu_doraemon_book34");
+const menu_doraemon_book35 = document.getElementById("menu_doraemon_book35");
+const menu_doraemon_book36 = document.getElementById("menu_doraemon_book36");
+const menu_doraemon_book37 = document.getElementById("menu_doraemon_book37");
+const menu_doraemon_book38 = document.getElementById("menu_doraemon_book38");
+const menu_doraemon_book39 = document.getElementById("menu_doraemon_book39");
+const menu_doraemon_book40 = document.getElementById("menu_doraemon_book40");
+const menu_doraemon_book41 = document.getElementById("menu_doraemon_book41");
+const menu_doraemon_book42 = document.getElementById("menu_doraemon_book42");
+const menu_doraemon_book43 = document.getElementById("menu_doraemon_book43");
+const menu_doraemon_book44 = document.getElementById("menu_doraemon_book44");
+const menu_doraemon_book45 = document.getElementById("menu_doraemon_book45");
 
 menu_doraemon_book1.addEventListener("click", function(){
 
@@ -420,6 +504,168 @@ menu_doraemon_book18.addEventListener("click", function(){
 
 });
 
+menu_doraemon_book19.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/hijd/");
+
+});
+
+menu_doraemon_book20.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/jawg/");
+
+});
+
+menu_doraemon_book21.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/heay/");
+
+});
+
+menu_doraemon_book22.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/lcao/");
+
+});
+
+menu_doraemon_book23.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/lwlh/");
+
+});
+
+menu_doraemon_book24.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/yngv/");
+
+});
+
+menu_doraemon_book25.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/bbih/");
+
+});
+
+menu_doraemon_book26.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/wund/");
+
+});
+
+menu_doraemon_book27.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/kxis/");
+
+});
+
+menu_doraemon_book28.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/tkcw/");
+
+});
+
+menu_doraemon_book29.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/lnxo/");
+
+});
+
+menu_doraemon_book30.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/gvca/");
+
+});
+
+menu_doraemon_book31.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/qkgv/");
+
+});
+
+menu_doraemon_book32.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/mjkf/");
+
+});
+
+menu_doraemon_book33.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/hkem/");
+
+});
+
+menu_doraemon_book34.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/sxlp/");
+
+});
+
+menu_doraemon_book35.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/xyps/");
+
+});
+
+menu_doraemon_book36.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/hwvz/");
+
+});
+
+menu_doraemon_book37.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/cvvm/");
+
+});
+
+menu_doraemon_book38.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/davx/");
+
+});
+
+menu_doraemon_book39.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/miys/");
+
+});
+
+menu_doraemon_book40.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/lzhv/");
+
+});
+
+menu_doraemon_book41.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/mqhe/");
+
+});
+
+menu_doraemon_book42.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/rrlf/");
+
+});
+
+menu_doraemon_book43.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/hoxd/");
+
+});
+
+menu_doraemon_book44.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/csji/");
+
+});
+
+menu_doraemon_book45.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/xmcq/");
+
+});
+
 
 /****************************************************************
  *                        Science                               *
@@ -447,9 +693,23 @@ menu_ScienceAdventures_3.addEventListener("click", function(){
 
 });
 
-const menu_EnglishPicDictionary = document.getElementById("menu_EnglishPicDictionary");
-const  menu_PhonicsBook1        = document.getElementById("menu_PhonicsBook1");
-const  menu_PhonicsBook2        = document.getElementById("menu_PhonicsBook2");
+
+
+/****************************************************************
+ *                        Learning                              *
+ ****************************************************************/
+
+const menu_EnglishPicDictionary        = document.getElementById("menu_EnglishPicDictionary");
+const  menu_PhonicsBook1               = document.getElementById("menu_PhonicsBook1");
+const  menu_PhonicsBook2               = document.getElementById("menu_PhonicsBook2");
+const menu_grammar_in_action_1         = document.getElementById("menu_grammar_in_action_1");
+const menu_grammar_in_action_2         = document.getElementById("menu_grammar_in_action_2");
+const menu_spoken_idioms_in_action_1   = document.getElementById("menu_spoken_idioms_in_action_1");
+const menu_spoken_idioms_in_action_2   = document.getElementById("menu_spoken_idioms_in_action_2");
+const menu_phrasal_verbs_in_action_1   = document.getElementById("menu_phrasal_verbs_in_action_1");
+const menu_phrasal_verbs_in_action_2   = document.getElementById("menu_phrasal_verbs_in_action_2");
+const menu_confusing_words_in_action_1 = document.getElementById("menu_confusing_words_in_action_1");
+const menu_confusing_words_in_action_2 = document.getElementById("menu_confusing_words_in_action_2");
 
 menu_EnglishPicDictionary.addEventListener("click", function(){
 
@@ -469,6 +729,54 @@ menu_PhonicsBook2.addEventListener("click", function(){
 
 });
 
+menu_spoken_idioms_in_action_1.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/pwtji/wrnk/");
+
+});
+
+menu_spoken_idioms_in_action_2.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/pwtji/rgwc/");
+
+});
+
+menu_grammar_in_action_1.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/pwtji/nklh/");
+
+});
+
+menu_grammar_in_action_2.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/pwtji/zmwk/");
+
+});
+
+menu_phrasal_verbs_in_action_1.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/uyswk/gdzz/");
+
+});
+
+menu_phrasal_verbs_in_action_2.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/uyswk/nytw/");
+
+});
+
+menu_confusing_words_in_action_1.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/uyswk/axfa/");
+
+});
+
+menu_confusing_words_in_action_2.addEventListener("click", function(){
+
+	window.open("https://online.fliphtml5.com/uyswk/snmx/");
+
+});
+
 
 /****************************************************************
  *                        Donald Duck                           *
@@ -476,6 +784,25 @@ menu_PhonicsBook2.addEventListener("click", function(){
 
 const menu_DonaldDuck_1   = document.getElementById("menu_DonaldDuck_1");
 const menu_DonaldDuck_2   = document.getElementById("menu_DonaldDuck_2");
+const menu_DonaldDuck_3   = document.getElementById("menu_DonaldDuck_3");
+const menu_DonaldDuck_4   = document.getElementById("menu_DonaldDuck_4");
+const menu_DonaldDuck_5   = document.getElementById("menu_DonaldDuck_5");
+const menu_DonaldDuck_6   = document.getElementById("menu_DonaldDuck_6");
+const menu_DonaldDuck_7   = document.getElementById("menu_DonaldDuck_7");
+const menu_DonaldDuck_8   = document.getElementById("menu_DonaldDuck_8");
+const menu_DonaldDuck_9   = document.getElementById("menu_DonaldDuck_9");
+const menu_DonaldDuck_10  = document.getElementById("menu_DonaldDuck_10");
+const menu_DonaldDuck_11  = document.getElementById("menu_DonaldDuck_11");
+const menu_DonaldDuck_12  = document.getElementById("menu_DonaldDuck_12");
+const menu_DonaldDuck_13  = document.getElementById("menu_DonaldDuck_13");
+const menu_DonaldDuck_14  = document.getElementById("menu_DonaldDuck_14");
+const menu_DonaldDuck_15  = document.getElementById("menu_DonaldDuck_15");
+const menu_DonaldDuck_16  = document.getElementById("menu_DonaldDuck_16");
+const menu_DonaldDuck_17  = document.getElementById("menu_DonaldDuck_17");
+const menu_DonaldDuck_18  = document.getElementById("menu_DonaldDuck_18");
+const menu_DonaldDuck_19  = document.getElementById("menu_DonaldDuck_19");
+const menu_DonaldDuck_20  = document.getElementById("menu_DonaldDuck_20");
+const menu_DonaldDuck_21  = document.getElementById("menu_DonaldDuck_21");
 
 menu_DonaldDuck_1.addEventListener("click", function(){
 
@@ -489,4 +816,116 @@ menu_DonaldDuck_2.addEventListener("click", function(){
 
 });
 
+menu_DonaldDuck_3.addEventListener("click", function(){
 
+ 	window.open("https://online.fliphtml5.com/uyswk/cios/");
+
+});
+
+menu_DonaldDuck_4.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/nkhe/");
+
+});
+
+menu_DonaldDuck_5.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/hlbq/");
+
+});
+
+menu_DonaldDuck_6.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/jjex/");
+
+});
+
+menu_DonaldDuck_7.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/qqiv/");
+
+});
+
+menu_DonaldDuck_8.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/jiqd/");
+
+});
+
+menu_DonaldDuck_9.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/lliq/");
+
+});
+
+menu_DonaldDuck_10.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/mzcz/");
+
+});
+
+menu_DonaldDuck_11.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/lkha/");
+
+});
+
+menu_DonaldDuck_12.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/rojr/");
+
+});
+
+menu_DonaldDuck_13.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/gpga/");
+
+});
+
+menu_DonaldDuck_14.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/zavt/");
+
+});
+
+menu_DonaldDuck_15.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/tcuf/");
+
+});
+
+menu_DonaldDuck_16.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/mfai/");
+
+});
+
+menu_DonaldDuck_17.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/hnav/");
+
+});
+
+menu_DonaldDuck_18.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/noic/");
+
+});
+
+menu_DonaldDuck_19.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/owiy/");
+
+});
+
+menu_DonaldDuck_20.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/uyswk/osiy/");
+
+});
+
+menu_DonaldDuck_21.addEventListener("click", function(){
+
+ 	window.open("https://online.fliphtml5.com/pwtji/swph/");
+
+});
