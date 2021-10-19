@@ -1,0 +1,50 @@
+
+html {
+    height: 100%;
+    margin: 0px;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+}
+
+body{
+    height: 100%;
+    margin: 0px; 
+}
+
+.container{
+   width: 100%;
+   height: 90%;
+   grid-template-rows: 70% 30%;
+}
+
+.bookContainer{
+    height: 100%;
+    width: 99%;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    //border: 3px solid green; 
+}
+
+.flipBook{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //border: 3px solid blue; 
+}
+
+.audioContainer{
+    width: 99%;
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    //border: 3px solid red; 
+}
+
+.audioStory, .audioSong{
+    font-size: 2.3vw;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //border: 3px solid blue; 
+}
