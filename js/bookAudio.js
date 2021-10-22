@@ -1,4 +1,33 @@
 
+const video_box = document.querySelector(".result_box");
+const close_btn = video_box.querySelector(".buttons .myButton");
+
+function openVideo(){
+
+    //show video box
+    video_box.classList.add("activeResult");
+
+    var elem = document.getElementById("myvideo");
+    if (elem.requestFullscreen) {
+	    elem.requestFullscreen();
+	  } else if (elem.webkitRequestFullscreen) { /* Safari */
+	    elem.webkitRequestFullscreen();
+	  } else if (elem.msRequestFullscreen) { /* IE11 */
+	    elem.msRequestFullscreen();
+  	}
+
+  	elem.autoplay = true;
+    elem.load();
+}
+
+close_btn.onclick = ()=>{
+
+	//hide video box
+    video_box.classList.remove("activeResult");
+
+    var elem = document.getElementById("myvideo");
+    elem.pause();
+}
 
 window.addEventListener('load',() => {
 
@@ -23,8 +52,8 @@ window.addEventListener('load',() => {
 								   + '<source src="'+AllBooks[i].storyMP3+'" type="audio/mpeg"> Your browser does not support the audio tag.'
 								   + '</audio>';
 
-				let storyContent = document.getElementById("storyContent");
-				storyContent.innerHTML = storyMP3_tag;
+				let content1 = document.getElementById("content1");
+				content1.innerHTML = storyMP3_tag;
 
 				if(AllBooks[i].songMP3 !=""){
 
@@ -34,8 +63,20 @@ window.addEventListener('load',() => {
 									   + '<source src="'+AllBooks[i].songMP3+'" type="audio/mpeg"> Your browser does not support the audio tag.'
 									   + '</audio>';
 
-					let songContent = document.getElementById("songContent");
-					songContent.innerHTML = songMP3_tag;
+					let content2 = document.getElementById("content2");
+					content2.innerHTML = songMP3_tag;
+				}
+
+				if(AllBooks[i].videoMP4 !=""){
+
+					var videoObj = document.getElementById("myvideo");
+					videoObj.src = AllBooks[i].videoMP4;
+
+					// Add video
+					let videoMP4_tag = '<button class="myButton" onclick="openVideo();">Open video in full screen</button>';
+
+					let content2 = document.getElementById("content2");
+					content2.innerHTML = videoMP4_tag;
 				}
 
                 isFound = true;
@@ -48,3 +89,4 @@ window.addEventListener('load',() => {
 		alert("The book is NOT FOUND!!!");
 
 })
+
