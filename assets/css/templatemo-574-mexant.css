@@ -963,7 +963,7 @@ section.about-us ul.nacc li span.title {
   color: #212741;
   font-weight: 600;
   display: inline-block;
-  width: 24%;
+  width: 33%;
 }
 
 section.about-us ul.nacc li span.item-title {
@@ -976,7 +976,7 @@ section.about-us ul.nacc li span.item {
   color: #212741;
   font-weight: 400;
   display: inline-block;
-  width: 24%;
+  width: 33%;
 }
 
 section.about-us ul.nacc li.active {
