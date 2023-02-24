@@ -73,7 +73,7 @@ window.addEventListener('load',() => {
 					videoObj.src = AllBooks[i].videoMP4;
 
 					// Add video
-					let videoMP4_tag = '<a  href="'+videoObj.src+'" target="_blank">Open video</a>';
+					let videoMP4_tag = '<button class="myButton" onclick="openVideo();">Open video in full screen</button>';
 
 					let content2 = document.getElementById("content2");
 					content2.innerHTML = videoMP4_tag;
