@@ -367,35 +367,35 @@ let AllBooks = [
       flipBookURL: "https://online.fliphtml5.com/uyswk/iyrc/",
       storyMP3: "comic/audio/RJS1L9B2_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5Vm3u_wKSJ_YYn37g?e=GnW6hT"
   },
   {
       id: "RJS1L9B3",
       flipBookURL: "https://online.fliphtml5.com/pwtji/lrzl/",
       storyMP3: "comic/audio/RJS1L9B3_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5VnWkmuljOFb098Tw?e=PEackX"
   },
   {
       id: "RJS1L9B4",
       flipBookURL: "https://online.fliphtml5.com/pwtji/tmyl/",
       storyMP3: "comic/audio/RJS1L9B4_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5VoUsH_r2SL-rciXQ?e=qVyKut"
   },
   {
       id: "RJS1L9B5",
       flipBookURL: "https://online.fliphtml5.com/pwtji/tqix/",
       storyMP3: "comic/audio/RJS1L9B5_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5VqngloFTymAgvRDg?e=xYzXkJ"
   },
   {
       id: "RJS1L9B6",
       flipBookURL: "https://online.fliphtml5.com/pwtji/zqij/",
       storyMP3: "comic/audio/RJS1L9B6_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5VpMilcBBjQTg0QnQ?e=DqZaBj"
   },
 
 // Reading Journey Standard 1 Level 10
@@ -404,42 +404,42 @@ let AllBooks = [
       flipBookURL: "https://online.fliphtml5.com/pwtji/hfmo/",
       storyMP3: "comic/audio/RJS1L10B1_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5VrkctcIOsgvtJs1Q?e=dbCOIR"
   },
   {
       id: "RJS1L10B2",
       flipBookURL: "https://online.fliphtml5.com/uyswk/rvfo/",
       storyMP3: "comic/audio/RJS1L10B2_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5Vs4L11OhRGb9jzBg?e=NMzKzr"
   },
   {
       id: "RJS1L10B3",
       flipBookURL: "https://online.fliphtml5.com/uyswk/jcac/",
       storyMP3: "comic/audio/RJS1L10B3_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5VtAME8FRKAe4w66Q?e=62QgiQ"
   },
   {
       id: "RJS1L10B4",
       flipBookURL: "https://online.fliphtml5.com/uyswk/rclp/",
       storyMP3: "comic/audio/RJS1L10B4_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5Vu2pgl7LqQSqNEJw?e=TSA5P7"
   },
   {
       id: "RJS1L10B5",
       flipBookURL: "https://online.fliphtml5.com/uyswk/pvaa/",
       storyMP3: "comic/audio/RJS1L10B5_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5Vvl0Oj2ARPvczhvQ?e=5C1kg1"
   },
   {
       id: "RJS1L10B6",
       flipBookURL: "https://online.fliphtml5.com/uyswk/rmrx/",
       storyMP3: "comic/audio/RJS1L10B6_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5VwyVI7NI-2w_hiAw?e=gOpgS7"
   },
 
 // Reading Journey Standard 2 Level 1
@@ -449,42 +449,42 @@ let AllBooks = [
       flipBookURL: "https://online.fliphtml5.com/uyswk/riqq/",
       storyMP3: "comic/audio/RJS2L1B1_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5VxoqPUP8Ubg9NvpQ?e=DrpSnb"
   },
   {
       id: "RJS2L1B2",
       flipBookURL: "https://online.fliphtml5.com/uyswk/pamx/",
       storyMP3: "comic/audio/RJS2L1B2_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5VzoMeMbv18zbiBzw?e=bhwcvX"
   },
   {
       id: "RJS2L1B3",
       flipBookURL: "https://online.fliphtml5.com/uyswk/qzig/",
       storyMP3: "comic/audio/RJS2L1B3_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5VyyLLyAeRH6Fv7qQ?e=nAYVLj"
   },
   {
       id: "RJS2L1B4",
       flipBookURL: "https://online.fliphtml5.com/uyswk/rdiv/",
       storyMP3: "comic/audio/RJS2L1B4_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5V03MHMFWmKrAnCpQ?e=uJ1jNU"
   },
   {
       id: "RJS2L1B5",
       flipBookURL: "https://online.fliphtml5.com/uyswk/thty/",
       storyMP3: "comic/audio/RJS2L1B5_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5V1P4I3fxZTQRg_VQ?e=wgYcIh"
   },
   {
       id: "RJS2L1B6",
       flipBookURL: "https://online.fliphtml5.com/pwtji/rfax/",
       storyMP3: "comic/audio/RJS2L1B6_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5V2OxZ_5gXB-Qpq9A?e=9woF6I"
   },
 
 // Reading Journey Standard 2 Level 2
@@ -493,35 +493,35 @@ let AllBooks = [
       flipBookURL: "https://online.fliphtml5.com/pwtji/whtl/",
       storyMP3: "comic/audio/RJS2L2B1_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5V4EOnACiExoc4qyg?e=8fkRCq"
   },
   {
       id: "RJS2L2B2",
       flipBookURL: "https://online.fliphtml5.com/pwtji/yxwz/",
       storyMP3: "comic/audio/RJS2L2B2_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5V38jWKiCvB-5U-ag?e=lm1TLs"
   },
   {
       id: "RJS2L2B3",
       flipBookURL: "https://online.fliphtml5.com/pwtji/teps/",
       storyMP3: "comic/audio/RJS2L2B3_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5V5Uiauc1jFP3oamg?e=P5MEQg"
   },
   {
       id: "RJS2L2B4",
       flipBookURL: "https://online.fliphtml5.com/pwtji/jyfz/",
       storyMP3: "comic/audio/RJS2L2B4_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5V691-Mu9Lc0XtkvA?e=zQsucd"
   },
   {
       id: "RJS2L2B5",
       flipBookURL: "https://online.fliphtml5.com/uyswk/yumr/",
       storyMP3: "comic/audio/RJS2L2B5_story.mp3",
       songMP3:  "",
-      videoMP4: ""
+      videoMP4: "https://1drv.ms/v/s!ApZ9t4ltRh7vi5V7dUubZYwLFOqmlQ?e=kTQ1is"
   },
   {
       id: "RJS2L2B6",
