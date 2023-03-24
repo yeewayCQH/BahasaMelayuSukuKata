@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Let's Draw</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="BMTahun/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="BMTahun/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="BMTahun/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link href="BMTahun/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Load Tempalte CSS -->
+    <link rel="stylesheet" href="BMTahun/css/templatemo.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="BMTahun/css/custom.css">
+<!--
+
+TemplateMo 561 Purple Buzz
+
+https://templatemo.com/tm-561-purple-buzz
+
+-->
+</head>
+
+<body>
+
+    <!-- Start Service -->
+    <section class="service-wrapper py-3">
+        <div class="container-fluid pb-3">
+            <div class="row">
+                <h2 class="h2 text-center col-12 py-1 semi-bold-600">Drawing is Fun</h2>
+            </div>
+        </div>
+
+        <div class="service-tag py-5 bg-secondary">
+            <div class="col-md-12">
+                <ul class="nav d-flex justify-content-center">
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".allDraw">All</a>
+                    </li>
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".animal"><b>Animal</b></a>
+                    </li>
+                    <li class="filter-btn nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".people"><b>People</b></a>
+                    </li>
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".plant"><b>Plant</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container overflow-hidden py-5">
+        <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
+
+
+            <div class="col-xl-3 col-md-4 col-sm-6 allDraw animal">
+                <a  href="https://www.youtube.com/watch?v=G9q4ZKSUnAU" target="_blank" class="service-work2 card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="./Draw/img/crab.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end"></div>
+                </a>
+            </div>
+
+            <div class="col-xl-3 col-md-4 col-sm-6 allDraw people">
+                <a  href="https://www.youtube.com/watch?v=8tooEqGH9V0" target="_blank" class="service-work2 card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="./Draw/img/girl01.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end"></div>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- End Service -->
+
+
+
+
+    <!-- Start Footer -->
+    <footer class="bg-secondary pt-4">
+
+        <div class="w-100 bg-primary py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            &nbsp;
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            &nbsp;
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="BMTahun/js/bootstrap.bundle.min.js"></script>
+    <!-- Load jQuery require for isotope -->
+    <script src="BMTahun/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="BMTahun/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.allDraw',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+    <!-- Templatemo -->
+    <script src="BMTahun/js/templatemo.js"></script>
+    <!-- Custom -->
+    <script src="BMTahun/js/custom.js"></script>
+
+</body>
+
+</html>

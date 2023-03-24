@@ -76,6 +76,30 @@ p, a {font-weight: 400;}
 .service-wrapper .service-footer {
   max-width: 720px;
 }
+
+.service-work2.card {
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+.service-work2 .service-work-vertical {
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 1.99%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .5s;
+}
+.service-work2 .service-work-vertical:hover {
+  background-position: 0% 0%;
+  transition: .5s;
+}
+.service-work2 .service-work-vertical:hover * {
+  color: #000;
+  border-color: #000;
+  transition: .5s;
+}
+
+
+
+
 .service-work.card {
   border-radius: 10px !important;
   cursor: pointer;
