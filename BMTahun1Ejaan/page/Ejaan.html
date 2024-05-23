@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejaan</title>
+    <link rel="stylesheet" href="../css/ejaan.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <script src="../js/icon.js"></script>
+</head>
+<body>
+
+    <audio id="wrongAudio">
+      <source src="../audio/wrong.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="correctAudio">
+      <source src="../audio/correct.mp3" type="audio/mpeg">
+    </audio>
+
+	<div class="container">
+ 		<div class="leftContainer">
+ 			<img id="animatePic" style="margin-top: 50px;"> </img>
+		</div>
+ 		<div class="middleContainer">
+ 			<div class="ejaanInfo">
+ 				<div class="infoPanel">
+					<div class="instruction">Tuliskan perkataan yang betul</div>
+					<div class="info">
+						Soalan <span class="numberQuestionIndex">1</span> / <span class="totalQuestion"></span>
+					</div>
+	  			</div>
+	  		</div>
+ 			<div class="questionPanel">
+				<div class="equation">
+                    <!-- write from script -->
+			  		<img id="question_img"></img>
+				</div>
+ 			</div>
+ 			<div class="option_list">
+			 	<!-- write from script -->
+		    </div>
+		    <div class="buttonPanel">
+		    	<div id="submit_btn" class="submit_btn"><span>semak</span></div>
+		    	<div id="next_btn"   class="next_btn"><span>Seterusnya</span></div>
+		    </div>
+ 		</div>
+ 		<div>&nbsp;</div>
+	</div>
+
+	<!-- Result Box -->
+    <div class="result_box">
+      <div class="icon"><i class="fas fa-crown"></i></div>
+      <div class="complete_text">Anda sudah jawab semua soalan!</div>
+      <div class="score_text">Jumlah Soalan : <div class="totalQuestion"></div></div>
+      <div class="score_text">
+          <div class="icon tick"> <i class="fas fa-check"></i></div>
+          Betul : <div class="numberCorrect"></div> &
+          <div class="icon cross"> <i class="fas fa-times"></i></div>
+          Salah : <div class="numberWrong"></div>
+      </div>
+      <div class="buttons"><button class="ok">ok</button></div>
+    </div>
+
+	<script src="../js/Ejaan_questions.js"></script>
+    <script src="../js/Ejaan_script.js"></script>
+</body>
+</html>
